@@ -1,3 +1,51 @@
+/* COLOR PALETTE
+https://coolors.co/000000-fffffc-beb7a4-8d5b4c-387780
+Kakhi web - #BEB7A4
+Baby powder - #FFFFFC
+Russian Violet - #231942
+Redwood - #8D5B4C
+Ming - #387780 */
+
+
+/* Global styles
+--------------------------*/
+body {
+    color: #231942;
+}
 img {
     width: 300px;
+}
+
+
+/* Profile
+--------------------------*/
+header {
+    background: #8D5B4C;
+    color: #FFFFFC;
+}
+
+/* Projects
+--------------------------*/
+.projects {
+    background: #387780;
+    color: #FFFFFC;
+}
+
+/* Work experience
+--------------------------*/
+.work-experience {
+    background: #FFFFFC;
+}
+
+/* Education
+--------------------------*/
+.education {
+    background: #BEB7A4;
+}
+
+/* Contact info
+--------------------------*/
+footer {
+    background: #8D5B4C;
+    color: #FFFFFC;
 }
