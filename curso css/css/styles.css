@@ -9,6 +9,12 @@ Ming - #387780 */
 
 /* Global styles
 --------------------------*/
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
 body {
     color: #231942;
     margin: 0;
@@ -72,6 +78,18 @@ header {
 }
 .projects .btn:hover {
     background: rgba(35,25,66, 80%);
+}
+.project-item {
+    overflow: hidden;
+    border-bottom: 2px dashed #231942;
+    padding: 20px 0;
+}
+.project-item img {
+    float: left;
+    margin-right: 20px;
+}
+.project-item h3 {
+    margin-top: 0;
 }
 
 /* Work experience
