@@ -57,6 +57,7 @@ h1, h2 {
 header {
     background: #8D5B4C;
     color: #FFFFFC;
+    text-align: center;
 }
 
 /* Projects
@@ -109,4 +110,15 @@ header {
 footer {
     background: #8D5B4C;
     color: #FFFFFC;
+    text-align: center;
+}
+.contact-list {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+.contact-list a {
+    padding: 15px;
+    display: inline-block;
 }
